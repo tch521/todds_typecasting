@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "todds_typecasting"
+version = "2025.09.16"
+authors = [
+  { name="Todd", email="73101886+tch521@users.noreply.github.com" },
+]
+description = "A custom typecasting utility for Python"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache-2.0 License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tch521/todds_typecasting"
+"Bug Tracker" = "https://github.com/tch521/todds_typecasting/issues"
